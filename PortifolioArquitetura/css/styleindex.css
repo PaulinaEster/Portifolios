@@ -1,0 +1,52 @@
+
+/*Section 1*/
+.section1{
+    padding: 20px 0;
+}
+.section1 .container .carousel .carousel-inner .carousel-item img{
+    border-top: 3px solid black;
+}
+
+/*Section 2*/
+.section2{
+    padding: 20px 0;
+    border-bottom: 3px solid black;
+}
+
+.section2 .card{
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 0;
+    border-top: 3px solid black;
+    margin: 5px;
+}
+
+.section2 .card h3{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 26px;
+}
+.section2 .card h5{
+    font-family: 'Roboto Mono', monospace;
+}
+.section2 .card .card-text{
+    
+    text-align: center;
+}
+
+.section2 .card h6{
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.section2 .card .btn{
+    border-radius: 0;
+    background: black;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.section2 .card .btn:hover{
+    border-radius: 0;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    color:black
+}

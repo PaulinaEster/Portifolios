@@ -1,0 +1,115 @@
+
+
+/*Header*/
+header{
+    background:white;
+}
+
+header .titulo{
+    padding: 5px 25px;
+}
+
+header h1{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+
+header .coluna1{
+    padding: 20px 0;
+}
+
+header .container .row .navbar .container-fluid .navbar-collapse{
+    width: 100%;
+}
+
+header .container .row .navbar .container-fluid .navbar-collapse .navbar-nav{
+    width: 100%;
+    
+    justify-content: space-around;
+}
+header .container .row .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item{
+    border-top: 1px solid black;
+}
+header .container .row .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: black;
+}
+
+header .container .row .navbar .container-fluid .navbar-collapse .navbar-nav .atual{
+    border-top: 3px solid black;
+}
+
+header .container .row .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item:hover{
+    border-top: 3px solid black;
+}
+
+.navbar-toggler-icon, .navbar-toggler{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+/*Footer*/
+
+.footer{
+    background: black;
+}
+
+.footer a{
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.footer .coluna3 a{
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.footer li a:hover{
+    color: rgb(255, 255, 255);
+    border-bottom:  1px solid rgb(255, 255, 255);
+}
+
+
+.footer .coluna1 a{
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+.footer  h5{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+.footer .coluna{
+    padding-left: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    header .container .row .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item{
+        border-top: 1px solid rgba(0, 0, 0, 0);
+        margin-top: 10px;
+    }
+    header .container .row .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link{
+        border-top: 1px solid rgb(0, 0, 0);
+        
+    }
+    header .container .row .navbar .container-fluid .navbar-collapse .navbar-nav .atual{
+        border-top: 3px solid black;
+    }
+    .footer .coluna{
+        padding-left: 5px;
+    }
+}
+  

@@ -1,0 +1,46 @@
+/*Section 1*/
+.section1 .container{
+    border-top: 1px solid black;
+}
+
+.section1 .colunas .coluna1{
+    padding-top: 15px;
+    font-family: 'Roboto Mono', monospace;;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.section1 .colunas .coluna1 h2{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.section1 .colunas p{
+    padding: 15px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+/*Section 2*/
+
+.container{
+    padding: 40px;
+}
+
+.section2 .colunas .coluna1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.section2 .colunas .coluna2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 .card{
+    border-radius: 0;
+    border: 1px solid black;
+}

@@ -1,0 +1,9 @@
+/*Section 1*/
+.section1{
+    padding: 50px;
+}
+.section1 .container .row .carousel .carousel-inner .carousel-item .coluna .col-md-6 { 
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
