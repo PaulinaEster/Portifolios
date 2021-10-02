@@ -1,4 +1,10 @@
+
+
 /*Section 1*/
+.section1{
+    
+    background:rgb(248, 248, 240);
+}
 .section1 .container{
     border-top: 1px solid black;
 }
@@ -23,8 +29,12 @@
 }
 
 /*Section 2*/
-
+.section2{
+    
+    background:rgb(248, 248, 240);
+}
 .container{
+    
     padding: 40px;
 }
 
@@ -41,6 +51,8 @@
 }
 
 .section2 .card{
+    
+    background:rgb(248, 248, 240);
     border-radius: 0;
     border: 1px solid black;
 }

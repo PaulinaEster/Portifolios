@@ -1,6 +1,8 @@
 
 /*Section 1*/
 .section1{
+    
+    background:rgb(248, 248, 240);
     padding: 20px 0;
 }
 .section1 .container .carousel .carousel-inner .carousel-item img{
@@ -9,11 +11,15 @@
 
 /*Section 2*/
 .section2{
+    
+    background:rgb(248, 248, 240);
     padding: 20px 0;
     border-bottom: 3px solid black;
 }
 
 .section2 .card{
+    
+    background:rgb(248, 248, 240);
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 0;
     border-top: 3px solid black;
@@ -38,13 +44,14 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-.section2 .card .btn{
+.section2 .card .btn, .section2 .modal .btn:hover{
     border-radius: 0;
     background: black;
     border: 2px solid rgba(0, 0, 0, 0);
+    color: white;
 }
 
-.section2 .card .btn:hover{
+.section2 .card .btn:hover, .section2 .modal .btn{
     border-radius: 0;
     background: rgb(255, 255, 255);
     border: 2px solid rgb(0, 0, 0);

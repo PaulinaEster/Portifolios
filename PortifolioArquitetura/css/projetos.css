@@ -1,0 +1,74 @@
+
+/*Section 1*/
+
+.section1{
+    
+    background:rgb(248, 248, 240);
+
+}
+
+.section1 #carrouseltelagrande{
+    padding:    40px 0;
+}
+.section1 .container-xl .row .carousel .carousel-inner .carousel-item .coluna .imagem { 
+    align-items: center;
+    padding-left: 80px;
+    display: grid;
+    justify-content: center;
+
+}
+
+.section1 .container-xl .row .carousel .carousel-inner .carousel-item .coluna img{
+    max-width: 400px;
+}
+
+.section1 .container-xl .row .carousel .carousel-inner .carousel-item .coluna .texto{
+    padding-right: 90px;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    filter: invert(100%);
+
+}
+
+/*SECTION 2*/
+#section2{
+    
+    background:rgb(248, 248, 240);
+}
+
+#section2 .card{
+    
+    background:rgb(248, 248, 240);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0;
+} 
+
+
+
+@media only screen and (max-width: 991px) {
+    .section1 .container-xl .row .carousel .carousel-inner .carousel-item .coluna .imagem{
+        align-items: center;
+        margin-bottom: 20px;
+        display: grid;
+        justify-content: center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .section1 .container-xl .row .carousel .carousel-inner .carousel-item .coluna .texto{
+        text-align: center;
+        align-items: center;
+        display: grid;
+        justify-content: center;
+        padding: 10px;
+        margin: 5px;
+        padding-bottom: 40px;
+    }
+    .section1 .container-xl .row .carousel .carousel-inner .carousel-item .coluna img{
+        min-width: 700px;
+    }
+  }
